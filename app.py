@@ -1,3 +1,4 @@
+
 from shiny import reactive, render
 from shiny.express import ui
 import random
@@ -56,7 +57,7 @@ with ui.sidebar(open="open"):
     ui.hr()
     ui.h6("Links")
     ui.a(
-        "GitHub Source",
+        "Sandra GitHub Cintel-05",
         href="https://github.com/S572396/cintel-05-cintel",
         target="_blank",
     )
@@ -146,3 +147,12 @@ with ui.card():
             fig.update_layout(xaxis_title="Time", yaxis_title="Temperature (°F)", yaxis_range=[0, 100])
 
         return fig
+
+
+    
+
+
+
+
+    
+
